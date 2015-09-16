@@ -1,0 +1,33 @@
+$LandingPage: #FF2B27;
+$AboutPage: #125DFF;
+$PorzioBlue: #5885AB;
+$PorzioRed: #E95038;
+$OldNewsPaper: #CDBCA3;
+
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+
+@import "partials/_home.scss";
+
+
+.parallax {
+  -webkit-perspective: 1px;
+          perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  -webkit-transform: translateZ(1);
+          transform: translateZ(1);
+}
+.parallax__layer--back {
+  -webkit-transform: translateZ(-1px) scale(1.5);
+          transform: translateZ(-1px) scale(1.5);
+}

@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+.home-page-wrapper {
+  background-color: #CDBCA3; }
+
+.landing-page-wrapper {
+  height: 100vh;
+  background: -webkit-radial-gradient(rgba(235, 220, 194, 0.2), rgba(235, 220, 194, 0.85)), url("../assets/sauce-can.jpg") no-repeat no-repeat fixed;
+  background: radial-gradient(rgba(235, 220, 194, 0.2), rgba(235, 220, 194, 0.85)), url("../assets/sauce-can.jpg") no-repeat no-repeat fixed;
+  background-size: cover; }
+  .landing-page-wrapper h6 {
+    font-family: 'Nothing You Could Do', cursive;
+    text-align: center;
+    font-size: 48px;
+    color: #5885AB; }
+  .landing-page-wrapper .box2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+
+.about-page-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #5885AB;
+  border-top: 10px solid #E95038;
+  border-bottom: 10px solid #E95038; }
+  .about-page-wrapper .about-info {
+    float: left;
+    width: 49%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1%; }
+    .about-page-wrapper .about-info p {
+      font-size: 24px; }
+  .about-page-wrapper .about-pic {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    float: right;
+    height: 100%;
+    width: 49%;
+    background: -webkit-linear-gradient(left, #5885ab, rgba(255, 255, 255, 0)), url("../assets/JDP-Jr-and-JDP-III-at-Porzios.jpg") no-repeat no-repeat;
+    background: linear-gradient(to right, #5885ab, rgba(255, 255, 255, 0)), url("../assets/JDP-Jr-and-JDP-III-at-Porzios.jpg") no-repeat no-repeat;
+    background-size: cover;
+    background-position: 50px 0px; }
+
+.make-pizza-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  background: -webkit-radial-gradient(rgba(235, 220, 194, 0.2), rgba(235, 220, 194, 0.85)), url("../assets/chalkboard.jpg") no-repeat no-repeat fixed;
+  background-size: cover;
+  border-bottom: 10px solid #E95038; }
+  .make-pizza-wrapper .location-wrapper {
+    height: 100vh;
+    background: linear-gradient(to left, rgba(233, 80, 56, 0.95), #e95038);
+    /* background-color: $PorzioRed; */
+    background-size: 100% 100%; }
+  .make-pizza-wrapper .pizza-making {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.all-about-the-sauce {
+  background-color: #CDBCA3;
+  height: 100vh;
+  width: 100%; }
+
+.parallax {
+  -webkit-perspective: 1px;
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.parallax__layer--base {
+  -webkit-transform: translateZ(1);
+  transform: translateZ(1); }
+
+.parallax__layer--back {
+  -webkit-transform: translateZ(-1px) scale(1.5);
+  transform: translateZ(-1px) scale(1.5); }
+
+/*# sourceMappingURL=styles.css.map */
